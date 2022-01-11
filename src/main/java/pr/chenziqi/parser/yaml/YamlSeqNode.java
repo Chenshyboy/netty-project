@@ -10,6 +10,12 @@ import pr.chenziqi.parser.AstParserContext;
  */
 public class YamlSeqNode extends YamlAstNode {
 
+  public static final char SEQ_KEY = '-';
+
+  public static final char BRACKET_START_KEY = '[';
+
+  public static final char BRACKET_END_KEY = ']';
+
   private final List<YamlAstNode> items = new ArrayList<>();
 
   public List<YamlAstNode> getItems() {

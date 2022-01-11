@@ -10,9 +10,9 @@ import pr.chenziqi.parser.AstParserContext;
  */
 public class YamlMapNode extends YamlAstNode {
 
-  public static final char CURLY_BRACE_START = '{';
+  public static final char CURLY_BRACE_START_KEY = '{';
 
-  public static final char CURLY_BRACE_END = '}';
+  public static final char CURLY_BRACE_END_KEY = '}';
 
   public YamlMapNode(AstParserContext context,
       YamlAstNode parentNode) {
